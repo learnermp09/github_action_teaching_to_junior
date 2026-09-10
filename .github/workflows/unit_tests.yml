@@ -14,28 +14,21 @@ on:
 
 jobs:
   test:
-<<<<<<< HEAD
     runs-on: ubuntu-latest
-=======
-    runs-on: ubuntu-latest  # ubuntu container: 
->>>>>>> 87056954e0152596326515c975e584c20c91ed3d
 
     steps:
       # Step 1: Check out the code from the repository
       - name: Check out code
-<<<<<<< HEAD
         uses: actions/checkout@v4
 
       # Step 2: Set up Python environment
       - name: Set up Python
         uses: actions/setup-python@v5
-=======
-        uses: actions/checkout@v2
+
 
       # Step 2: Set up Python environment
       - name: Set up Python
         uses: actions/setup-python@v2
->>>>>>> 87056954e0152596326515c975e584c20c91ed3d
         with:
           python-version: '3.11'
 
@@ -47,8 +40,5 @@ jobs:
 
       # Step 4: Run tests
       - name: Run tests
-<<<<<<< HEAD
         run: pytest
-=======
-        run: pytest
->>>>>>> 87056954e0152596326515c975e584c20c91ed3d
+
