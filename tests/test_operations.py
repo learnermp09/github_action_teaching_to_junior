@@ -7,6 +7,7 @@ def test_add():
 def test_subs():
     assert subs(5, 10) == -5
     assert subs(10, 2) == 8
+    assert subs(10, 10) == 0
 
 def test_mult():
     assert mult(5, 10) == 50
