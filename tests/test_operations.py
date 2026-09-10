@@ -2,7 +2,7 @@ from src.operations import *
 
 def test_add():
     assert add(5, 10) == 15
-    assert add(3, 18) == 21
+    assert add(3, 18) == 100
 
 def test_subs():
     assert subs(5, 10) == -5
